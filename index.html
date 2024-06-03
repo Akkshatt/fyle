@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Award Winning Digital Marketing Agency</title>
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .text-content {
+            flex: 1;
+            text-align: left;
+            padding-right: 20px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #ff4d4d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+.popup-content h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.popup-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-content form input[type="text"],
+.popup-content form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.popup-content form .name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-content form .name input {
+    width: 48%;
+}
+
+.popup-content form .terms {
+    font-size: 14px;
+    color: #6F718F99;
+    margin-top: 10px;
+}
+
+.popup-content form button[type="submit"] {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+    </style> -->
+</head>
+
+<body>
+    <div class="container1">
+        <div class="text-content">
+            <h1>AWARD WINNING</h1>
+            <h1>DIGITAL MARKETING AGENCY</h1>
+            <p>Morbi sed locus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac
+                at purus. Morbi sed locus nec risus finibus feugiat et fermentum.</p>
+            <button id="contactBtn">CONTACT US</button>
+        </div>
+        <img src="images/hero.png" alt="Digital Marketing Agency">
+    </div>
+
+    <div id="popupForm" class="popup">
+        <div class="popup-content">
+            <span id="closeBtn" style="float:right;cursor:pointer;">&times;</span>
+            <h2>Talk to us</h2>
+            <form id="contactForm">
+                <input placeholder="Work email*" type="email" id="work" name="work" required>
+                <div class="name">
+                    <input placeholder="First name*" type="text" id="firstName" name="firstName" required>
+                    <input placeholder="Last name*" type="text" id="lastName" name="lastName" required>
+                </div>
+                <label class="terms">
+                    <input type="checkbox" id="termsCheck" name="termsCheck" required>
+                    I agree to Fylo's terms and conditions, and provide consent to send me communication.
+                </label>
+                <button type="submit">Contact Us</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <div class="container2">
+        <p class="top">WHAT WE DO</p>
+        <div class="s">
+            <p class="top2">SERVICES PROVIDE FOR YOU</p>
+            <p class="top3">Morbi sed locus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit
+                fringilla ac at purus. Morbi sed locus nec risus finibus feugiat et fermentum.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/1-2.png" class="card-img" alt="Service 1">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/2-2.png" class="card-img" alt="Service 2">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/2-2.png" class="card-img" alt="Service 3">
+                    <div style=" align-items: center;" class="card-img-overlay">
+                        <img src="images/icon.png" style="width: 57px; height: 57px;" class="card-img" alt="Web Development">
+                        <p style="text-align: center;
+                        font: normal normal 600 24px/26px Cormorant SC;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                        opacity: 1">WEB DEVELOPMENT</p>
+                        <p style="text-align: center;
+                        font: normal normal normal 16px/30px Poppins;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                        opacity: 1;">Morbi sed locus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                        <button>READ MORE <img src="images/arrow.png"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!-- <div class="card"> -->
+                    <img src="images/3-2.png" class="card-img" alt="Service 4">
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div class="dots">
+            <span class="active"><img src="images/1.png"></span>
+            <span><img src="images/2.png"></span>
+            <span><img src="images/3.png"></span>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="container text-center my-5">
+        <h5 class="text-danger">WHY CHOOSE US</h5>
+        <h2>WHY WE ARE BEST</h2>
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="icon mb-2"><img src="images/1-1.png" alt="Icon 1"></div>
+                <h5>Clarified Vision & Target</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+            </div>
+            <div class="col-md-3">
+                <div class="icon mb-2"><img src="images/2-1.png" alt="Icon 2"></div>
+                <h5>High Performance</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+            </div>
+            <div class="col-md-3">
+                <div class="icon mb-2"><img src="images/3-1.png" alt="Icon 3"></div>
+                <h5>Maintain Security</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+            </div>
+            <div class="col-md-3">
+                <div class="icon mb-2"><img src="images/4.png" alt="Icon 4"></div>
+                <h5>Better Strategy & Quality</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <h5 class="text-danger">OUR PROJECT</h5>
+        <h2>WHY WE ARE BEST</h2>
+        <div class="row mt-4">
+            <div class="col-md-7">
+                <img id="project-image" src="images/image.png" class="img-fluid" alt="Project Image">
+            </div>
+            <div class="col-md-5 text-left">
+                <div class="project-info mb-4" data-image="images/image.png" data-id="1">
+                    <h5>Genderless Kei - Japan's Hot</h5>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of.</p>
+                </div>
+                <div class="project-info mb-4 " data-image="images/3-2.png" data-id="2">
+                    <h5>Better Strategy & Quality</h5>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of.</p>
+                </div>
+                <div class="project-info mb-4" data-image="images/1-2.png" data-id="3">
+                    <h5>Genderless Kei - Japan's Hot</h5>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-12">
+                <p class="text-danger">EXPERTS GROWTS</p>
+                <p class="our">OUR COMPANY GROWTH</p>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-3 col-sm-6">
+                <div class="growth-box">
+                    <img src="images/heart (2).png" class="icon text-danger" alt="Clock Icon">
+                    <p class="sd">199+</p>
+                    <p class="ss">Statified Customers</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="growth-box">
+                    <img src="images/clock (3).png" class="icon text-danger" alt="Clock Icon">
+                    <p class="sd">1591+</p>
+                    <p class="ss">Days Of Operation</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="growth-box">
+                    <img src="images/Path 4402.png" class="icon text-danger" alt="Clock Icon">
+                    <p class="sd">283+</p>
+                    <p class="ss">Complete Project</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="growth-box">
+                    <img src="images/Path 4406.png" class="icon text-danger" alt="Clock Icon">
+                    <p class="sd">75+</p>
+                    <p class="ss">Win Awards</p>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12">
+                <p class="text-danger">CLIENT'S FEEDBACK</p>
+                <p class="people">PEOPLE SAY'S ABOUT US !</p>
+                <blockquote class="blockquote">
+                    <img class ="quote "  src="images/Quotemarks-left.png" alt='Quotation mark image'>
+                    <p class="mb-0">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                    <footer class="blockquote-footer">
+                        <span class="name">JANNAT TUMPA</span> - <cite title="Source Title">COO, AMERIMAR</cite>
+                    </footer>
+                 </blockquote>
+                
+            </div>
+        </div>
+        <div class="ak">
+            <img src="images/Group 500.png"  alt="Logo 1" class="logo-img">
+        <!-- <div class="row my-5">
+            <div class="col-12">
+                <div class="d-flex justify-content-around flex-wrap">
+                 
+                     <img src="logo2.png" alt="Logo 2" class="logo-img">
+                    
+                </div> 
+            </div>
+        </div> -->
+        <div class="img"></div>
+    </div>
+    </div>
+
+
+
+
+
+    <script>
+        const contactBtn = document.getElementById('contactBtn');
+        const popupForm = document.getElementById('popupForm');
+        const closeBtn = document.getElementById('closeBtn');
+        const contactForm = document.getElementById('contactForm');
+
+        // Show the pop-up form when the "CONTACT US" button is clicked
+        contactBtn.addEventListener('click', () => {
+            popupForm.style.display = 'block';
+        });
+
+        // Hide the pop-up form when the close button is clicked
+        closeBtn.addEventListener('click', () => {
+            popupForm.style.display = 'none';
+        });
+
+        // Hide the pop-up form when clicked outside the form
+        window.addEventListener('click', (event) => {
+            if (event.target === popupForm) {
+                popupForm.style.display = 'none';
+            }
+        });
+
+        // Handle form submission
+        contactForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const formData = new FormData(contactForm);
+            const requestOptions = {
+                method: 'POST',
+                body: formData,
+                redirect: 'follow'
+            };
+
+            // Replace 'YOUR_GETFORM_IO_ENDPOINT_URL' with your actual Getform.io endpoint URL
+            fetch('https://getform.io/f/ebpdogob', requestOptions)
+                .then(response => response.text())
+                .then(result => {
+                    console.log(result);
+                    alert('Form submitted successfully!');
+                    popupForm.style.display = 'none';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred while submitting the form.');
+                });
+        });
+    </script>
+     <script>
+        document.querySelectorAll('.project-info').forEach(item => {
+            item.addEventListener('click', function() {
+                // Remove 'active' class from all project-info elements
+                document.querySelectorAll('.project-info').forEach(el => el.classList.remove('active'));
+
+                // Add 'active' class to the clicked project-info element
+                this.classList.add('active');
+
+                // Change the project image
+                const newImage = this.getAttribute('data-image');
+                document.getElementById('project-image').src = newImage;
+            });
+        });
+    </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
