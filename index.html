@@ -347,24 +347,24 @@
         const closeBtn = document.getElementById('closeBtn');
         const contactForm = document.getElementById('contactForm');
 
-        // Show the pop-up form when the "CONTACT US" button is clicked
+      
         contactBtn.addEventListener('click', () => {
             popupForm.style.display = 'block';
         });
 
-        // Hide the pop-up form when the close button is clicked
+      
         closeBtn.addEventListener('click', () => {
             popupForm.style.display = 'none';
         });
 
-        // Hide the pop-up form when clicked outside the form
+       
         window.addEventListener('click', (event) => {
             if (event.target === popupForm) {
                 popupForm.style.display = 'none';
             }
         });
 
-        // Handle form submission
+       
         contactForm.addEventListener('submit', (event) => {
             event.preventDefault();
 
@@ -375,7 +375,7 @@
                 redirect: 'follow'
             };
 
-            // Replace 'YOUR_GETFORM_IO_ENDPOINT_URL' with your actual Getform.io endpoint URL
+           
             fetch('https://getform.io/f/ebpdogob', requestOptions)
                 .then(response => response.text())
                 .then(result => {
@@ -392,13 +392,13 @@
      <script>
         document.querySelectorAll('.project-info').forEach(item => {
             item.addEventListener('click', function() {
-                // Remove 'active' class from all project-info elements
+             
                 document.querySelectorAll('.project-info').forEach(el => el.classList.remove('active'));
 
                 // Add 'active' class to the clicked project-info element
                 this.classList.add('active');
 
-                // Change the project image
+               
                 const newImage = this.getAttribute('data-image');
                 document.getElementById('project-image').src = newImage;
             });
